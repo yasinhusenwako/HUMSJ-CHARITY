@@ -40,17 +40,16 @@ const About = () => {
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 HUMSJ Charity Sector is the humanitarian arm of Haramaya
                 University Muslim Students' Jama'a. We are a dedicated group of
-                students and alumni committed to supporting our fellow students
-                and the wider community members who face financial challenges.
+                students and alumni committed to supporting orphans,
+                students, and families facing financial and social challenges.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Founded on the Islamic principles of charity (Sadaqah) and
-                community support (Takaful), we believe that every student and
-                community member deserves the opportunity to thrive regardless
-                of their financial circumstances. Through monthly donations and
+                community support (Takaful), we believe that every orphan,
+                student, and family member deserves the opportunity to thrive
+                regardless of their circumstances. Through monthly donations and
                 community involvement, we create a sustainable support system
-                that empowers students in their studies and helps community
-                members achieve their goals.
+                that provides care, education, and hope for a brighter future.
               </p>
             </div>
 

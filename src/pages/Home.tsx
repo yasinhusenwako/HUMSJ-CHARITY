@@ -29,12 +29,11 @@ const Home = () => {
               HUMSJ CHARITY SECTOR
             </p>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Give Hope Through Monthly Support
+              Supporting Those Who Need It Most
             </h1>
             <p className="text-xl mb-8 text-gray-200">
-              Join us in supporting Haramaya University students and the wider
-              community in need. Start with just 50 ETB per month and make a
-              lasting difference.
+              Empowering orphans, students, and community members in need. 
+              Start with just 50 ETB per month and transform lives through compassion and care.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/donate">
@@ -62,7 +61,7 @@ const Home = () => {
                 <Heart className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-4xl font-bold text-primary mb-2">1,200+</h3>
                 <p className="text-muted-foreground">
-                  Students & Community Members Supported
+                  Orphans & Community Members Supported
                 </p>
               </CardContent>
             </Card>
@@ -77,7 +76,7 @@ const Home = () => {
               <CardContent className="pt-8 pb-8">
                 <BookOpen className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h3 className="text-4xl font-bold text-primary mb-2">95%</h3>
-                <p className="text-muted-foreground">Graduation Rate</p>
+                <p className="text-muted-foreground">Success Rate</p>
               </CardContent>
             </Card>
           </div>
@@ -92,8 +91,8 @@ const Home = () => {
               Our Mission
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Supporting students and the community through education and social
-              initiatives, providing hope for a brighter future
+              Supporting orphans, students, and community members in need through 
+              education, care, and social initiatives for a brighter future
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -108,8 +107,8 @@ const Home = () => {
                   Education Support
                 </h3>
                 <p className="text-muted-foreground">
-                  Providing tuition assistance, books, and supplies to students
-                  and community members in need
+                  Providing tuition assistance, books, and educational supplies to 
+                  orphans and students in need
                 </p>
               </CardContent>
             </Card>
@@ -124,8 +123,8 @@ const Home = () => {
                   Community Building
                 </h3>
                 <p className="text-muted-foreground">
-                  Creating a supportive network of donors, students, and
-                  community members working together
+                  Creating a supportive network caring for orphans 
+                  and vulnerable community members
                 </p>
               </CardContent>
             </Card>
@@ -140,8 +139,8 @@ const Home = () => {
                   Community Impact
                 </h3>
                 <p className="text-muted-foreground">
-                  Helping students and community members achieve their goals and
-                  contribute to society
+                  Empowering orphans, students, and families to achieve 
+                  their goals and thrive
                 </p>
               </CardContent>
             </Card>
@@ -156,8 +155,8 @@ const Home = () => {
             Ready to Make a Difference?
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Your monthly donation of 50 ETB or more can change lives in our
-            student and community programs. Join our community of givers today.
+            Your monthly donation of 50 ETB or more can transform the lives of orphans, 
+            students, and families in need. Join our community of givers today.
           </p>
           <Link to="/causes">
             <Button variant="charity" size="lg" className="text-lg">

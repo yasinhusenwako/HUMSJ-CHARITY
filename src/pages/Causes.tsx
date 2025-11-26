@@ -41,14 +41,14 @@ const Causes = () => {
     {
       id: 5,
       title: "Healthcare Support",
-      description: "Provide medical care and health services for students in need",
+      description: "Provide medical care and health services for orphans and families in need",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
       icon: Stethoscope,
     },
     {
       id: 6,
       title: "Emergency Relief",
-      description: "Rapid assistance for students facing urgent financial or personal crises",
+      description: "Rapid assistance for orphans and families facing urgent crises",
       image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=800&q=80",
       icon: HandHeart,
     },
@@ -64,7 +64,7 @@ const Causes = () => {
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl font-bold mb-6">Our Causes</h1>
             <p className="text-xl opacity-90">
-              Support the causes that matter most to our Muslim student community
+              Support orphans, students, and community members in need
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Causes = () => {
               Active Campaigns
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Choose a cause and make a direct impact on Muslim students' lives at Haramaya University
+              Choose a cause and make a direct impact on the lives of orphans, students, and families in need
             </p>
           </div>
 
@@ -126,14 +126,15 @@ const Causes = () => {
                       Why Your Support Matters
                     </h3>
                     <p className="text-muted-foreground mb-4">
-                      Every donation directly impacts Muslim students at Haramaya University. Your contribution helps:
+                      Every donation directly impacts orphans, students, and families in our community. Your contribution helps:
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
-                      <li>• Keep students in school by covering essential expenses</li>
-                      <li>• Provide nutritious meals so students can focus on their studies</li>
-                      <li>• Ensure safe housing for students far from home</li>
-                      <li>• Build a stronger Muslim community through mutual support (Takaful)</li>
-                      <li>• Create opportunities for students to succeed and give back</li>
+                      <li>• Provide essential care and support for orphans</li>
+                      <li>• Keep students in school by covering tuition and educational expenses</li>
+                      <li>• Provide nutritious meals and healthcare for families in need</li>
+                      <li>• Ensure safe housing and shelter for those without homes</li>
+                      <li>• Build a stronger community through mutual support (Takaful)</li>
+                      <li>• Create opportunities for orphans and youth to succeed and thrive</li>
                     </ul>
                   </div>
                 </div>
