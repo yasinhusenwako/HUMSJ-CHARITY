@@ -188,7 +188,7 @@ const Donate = () => {
                     </div>
 
                     <div>
-                      <Label>Donation Amount (ETB) *</Label>
+                      <Label>Monthly Donation Details (ETB) *</Label>
                       <div className="grid grid-cols-3 gap-3 mt-2">
                         {presetAmounts.map((amount) => (
                           <Button

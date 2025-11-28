@@ -28,7 +28,7 @@ const Causes = () => {
       id: 3,
       title: "Food Security",
       description: "Ensure students have access to nutritious meals daily",
-      image: successImage,
+      image: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80",
       icon: Utensils,
     },
     {

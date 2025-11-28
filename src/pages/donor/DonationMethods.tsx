@@ -255,14 +255,6 @@ const DonationMethods = () => {
                       >
                         Copy Details
                       </Button>
-                      <Button
-                        variant="default"
-                        size="sm"
-                        onClick={() => openUploadDialog(method)}
-                      >
-                        <Upload className="w-4 h-4 mr-2" />
-                        Upload Receipt
-                      </Button>
                     </div>
                   </div>
                 </CardContent>
@@ -270,6 +262,29 @@ const DonationMethods = () => {
             ))
           )}
         </div>
+
+        {/* Upload Receipt Button */}
+        <Card className="bg-gradient-primary text-primary-foreground">
+          <CardContent className="pt-6 pb-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="text-lg font-semibold mb-1">Already Made a Payment?</h3>
+                <p className="text-sm opacity-90">Upload your payment receipt for verification</p>
+              </div>
+              <Button
+                variant="charity"
+                size="lg"
+                onClick={() => {
+                  setSelectedMethod(methods[0]);
+                  setUploadDialogOpen(true);
+                }}
+              >
+                <Upload className="w-5 h-5 mr-2" />
+                Upload Receipt
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* Info Card */}
         <Card className="bg-blue-50 border-blue-200">
@@ -298,10 +313,23 @@ const DonationMethods = () => {
             </DialogHeader>
             <div className="space-y-3">
               <div>
-                <Label className="text-sm font-medium">Payment Method</Label>
-                <p className="text-sm text-muted-foreground mt-0.5">
-                  {selectedMethod?.name}
-                </p>
+                <Label htmlFor="paymentMethod">Payment Method Used *</Label>
+                <select
+                  id="paymentMethod"
+                  className="w-full mt-1 px-3 py-2 border border-input bg-background rounded-md"
+                  value={selectedMethod?.id || ""}
+                  onChange={(e) => {
+                    const method = methods.find(m => m.id === e.target.value);
+                    setSelectedMethod(method || null);
+                  }}
+                >
+                  <option value="">Select payment method</option>
+                  {methods.map((method) => (
+                    <option key={method.id} value={method.id}>
+                      {method.name}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               <div>
